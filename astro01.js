@@ -370,6 +370,7 @@ function update_controls() {
     lockSunSlider.show();
     seam_button.show();
     sunmoon_button.show();
+    m2ZoomSlider.show();
   }
 
   if (show_controls==0) {
@@ -383,6 +384,7 @@ function update_controls() {
     lockSunSlider.hide();
     seam_button.hide();
     sunmoon_button.hide();
+    m2ZoomSlider.hide();
   }
 
 }
