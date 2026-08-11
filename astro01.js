@@ -47,14 +47,14 @@ de406_func();
 
 function preload() {
 
-  if (tipo==1) img01=loadImage('/images/earthmap_day_2k.jpg');
+  if (tipo==1) img01=loadImage('images/earthmap_day_2k.jpg');
   //if (tipo==1) img01=loadImage('/images/starmap_4k_2.jpg');
-  if (tipo==2) img01=loadImage('/images/earthmap_white_01.jpg');
-  img02=loadImage('/images/earthmap_night_2k_2.jpg');
-  img03=loadImage('/images/right-arrow-icon-7580_32.png')
-  if (tipo==1) Shader01=loadShader('/js/shaders/shader01.vert','/js/shaders/shader01.frag');
-  if (tipo==2) Shader01=loadShader('/js/shaders/shader01.vert','/js/shaders/shader03.frag');
-  Shader02=loadShader('/js/shaders/shader01.vert','/js/shaders/shader04.frag');
+  if (tipo==2) img01=loadImage('images/earthmap_white_01.jpg');
+  img02=loadImage('images/earthmap_night_2k_2.jpg');
+  img03=loadImage('images/right-arrow-icon-7580_32.png')
+  if (tipo==1) Shader01=loadShader('js/shaders/shader01.vert','js/shaders/shader01.frag');
+  if (tipo==2) Shader01=loadShader('js/shaders/shader01.vert','js/shaders/shader03.frag');
+  Shader02=loadShader('js/shaders/shader01.vert','js/shaders/shader04.frag');
 
 
    cam_cpy_opt_2=[0,-500,500];
